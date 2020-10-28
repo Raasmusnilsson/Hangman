@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HangmanTest2</string>
+    <string name="YOU_WON_MESSAGE">Du vann!</string>
+    <string name="YOU_LOST_MESSAGE">Du förlorade!</string>
+    <string name="GUESSED_LETTERS">Gissade bokstäver..</string>
+    <string name="LETTERS_TRIED">"Försökta bokstäver: "</string>
+    <string name="GUESS_A_LETTER">Gissa en bokstav</string>
+    <string name="START_GAME">Starta Spelet</string>
+    <string name="ABOUT_APPLICATION">Om applikationen</string>
+    <string name="PROGRAMMED_BY_RASMUS">Programmerad av Rasmus</string>
+    <string name="TRIES_LEFT">försök kvar!</string>
+    <string name="AMOUNT_OF_TRIES_LEFT_MESSAGE">"Antal försök kvar: "</string>
+    <string name="THE_WORD_MESSAGE">"Ordet är: "</string>
+    <string name="PLAY_AGAIN_MESSAGE">Spela Igen</string>
+</resources>

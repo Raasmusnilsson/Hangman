@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    android:background="@drawable/hangman_4">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="414dp"
+        android:layout_height="59dp"
+        android:background="?attr/colorPrimary"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:title="              HANGMAN" />
+
+    <ImageButton
+        android:id="@+id/infoBtn"
+        android:layout_width="63dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/toolbar"
+        android:layout_marginTop="8dp"
+        android:background="?attr/colorPrimary"
+        android:onClick="infoBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <ImageButton
+        android:id="@+id/playBtn"
+        android:layout_width="63dp"
+        android:layout_height="46dp"
+        android:layout_above="@+id/toolbar"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="playBtn"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/infoBtn"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <Button
+        android:id="@+id/startGameBtn"
+        android:layout_width="324dp"
+        android:layout_height="70dp"
+        android:onClick="startGameBtn"
+        android:text="@string/START_GAME"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.245"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/infoBigBtn"
+        android:layout_width="324dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/ABOUT_APPLICATION"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/startGameBtn"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/startGameBtn"
+        app:layout_constraintTop_toBottomOf="@+id/startGameBtn"
+        app:layout_constraintVertical_bias="0.0"
+        android:textStyle="bold"
+        android:onClick="infoBigBtn"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

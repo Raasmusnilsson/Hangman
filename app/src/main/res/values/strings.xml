@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HangmanTest2</string>
+    <string name="YOU_WON_MESSAGE">You won!</string>
+    <string name="YOU_LOST_MESSAGE">You lost!</string>
+    <string name="GUESSED_LETTERS">Guessed letters..</string>
+    <string name="LETTERS_TRIED">"Letters tried: "</string>
+    <string name="GUESS_A_LETTER">Guess a letter</string>
+    <string name="START_GAME">Start Game</string>
+    <string name="ABOUT_APPLICATION">About Application</string>
+    <string name="PROGRAMMED_BY_RASMUS">Programmed by Rasmus</string>
+    <string name="TRIES_LEFT">Tries left!</string>
+    <string name="AMOUNT_OF_TRIES_LEFT_MESSAGE">"Amount of tries left: "</string>
+    <string name="THE_WORD_MESSAGE">"The word is: "</string>
+    <string name="PLAY_AGAIN_MESSAGE">Play Again</string>
+</resources>
